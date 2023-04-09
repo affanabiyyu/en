@@ -13,8 +13,9 @@ import { SOCIALS } from "@config";
 
 const posts = await getCollection("blog");
 
-const sortedPosts = getSortedPosts(posts);
-const featuredPosts = sortedPosts.filter(({ data }) => data.featured);
+const allPosts = getSortedPosts(posts);
+const sortedPosts = allPosts.filter(({ data }) => !data.featured);
+const featuredPosts = allPosts.filter(({ data }) => data.featured);
 
 const socialCount = SOCIALS.filter(social => social.active).length;
 ---
@@ -25,154 +26,192 @@ const socialCount = SOCIALS.filter(social => social.active).length;
     <section id="hero">
       <h1>halo_</h1>
       <a
-      target="_blank"
-      href="/rss.xml"
-      class="rss-link"
-      aria-label="rss feed"
-      title="RSS Feed"
+        target="_blank"
+        href="/rss.xml"
+        class="rss-link"
+        aria-label="rss feed"
+        title="RSS Feed"
       >
-      <svg xmlns="http://www.w3.org/2000/svg" class="rss-icon"
-      ><path
-      d="M19 20.001C19 11.729 12.271 5 4 5v2c7.168 0 13 5.832 13 13.001h2z"
-      ></path><path
-      d="M12 20.001h2C14 14.486 9.514 10 4 10v2c4.411 0 8 3.589 8 8.001z"
-      ></path><circle cx="6" cy="18" r="2"></circle>
-    </svg>
-  </a>
-  <div class="controller">
-    <p>
-      <LinkButton
-      className="hover:text-skin-base text-skin-accent text-sm underline underline-offset-4 decoration-dashed"
-      href="https://github.com/satnaing/astro-paper#readme"
-      >
-      (go to english blog)
-    </LinkButton> | <LinkButton 
-    className="hover:text-skin-base text-skin-accent text-sm underline underline-offset-4 decoration-dashed"
-    href="#"
-    >
-    <span id="theme-btn2">(ganti tema)</span>
-  </LinkButton>
-</p>
-</div>
+        <svg xmlns="http://www.w3.org/2000/svg" class="rss-icon"
+          ><path
+            d="M19 20.001C19 11.729 12.271 5 4 5v2c7.168 0 13 5.832 13 13.001h2z"
+          ></path><path
+            d="M12 20.001h2C14 14.486 9.514 10 4 10v2c4.411 0 8 3.589 8 8.001z"
+          ></path><circle cx="6" cy="18" r="2"></circle>
+        </svg>
+      </a>
+      <div class="controller">
+        <p>
+          <LinkButton
+            className="hover:text-skin-base text-skin-accent text-sm underline underline-offset-4 decoration-dashed"
+            href="/en"
+          >
+            (go to english blog)
+          </LinkButton> | <LinkButton
+            className="hover:text-skin-base text-skin-accent text-sm underline underline-offset-4 decoration-dashed"
+            href="#"
+          >
+            <span id="theme-btn2">(ganti tema)</span>
+          </LinkButton>
+        </p>
+      </div>
 
-<p class="text-center uppercase underline underline-offset-4 opacity-90 text-md">Tautan & Project Pilihan</p>
-<p class="pb-1">
-  <LinkButton
-  className="cyberButton mb-2 block w-full border shadow-md border-skin-accent px-6 py-3 text-xs font-medium uppercase leading-none text-skin-base transition duration-150 ease-in-out hover:border-primary-600 hover:bg-neutral-500 hover:bg-opacity-10 hover:text-skin-accent text-center"
-  href="https://github.com/satnaing/astro-paper#readme"
-  >
-  <span class="underline underline-offset-4">Daily Log</span> 
-  <br/>
-  <span class="text-sm text-center opacity-90 text-skin-base no-underline">
-    Proyek menulis Blog setiap hari, tentang apapun.
-  </span>
-</LinkButton>
-</p>
-<p class="pb-1">
-  <LinkButton
-  className="cyberButton mb-2 block w-full border shadow-md border-skin-accent px-6 py-3 text-xs font-medium uppercase leading-none text-skin-base transition duration-150 ease-in-out hover:border-primary-600 hover:bg-neutral-500 hover:bg-opacity-10 hover:text-skin-accent text-center"
-  href="https://github.com/satnaing/astro-paper#readme"
-  >
-  <span class="underline underline-offset-4">Astro Paper</span> 
-</LinkButton>
-</p>
+      <!-- Links -->
+      <p class="text-md uppercase underline underline-offset-4 opacity-90">
+        Link Pilihan
+      </p>
+      <p class="pb-1">
+        <LinkButton
+          className="cyberButton cyberGradient mb-2 block w-full border shadow-md border-skin-accent px-6 py-3 text-xs font-medium uppercase leading-none text-skin-base transition duration-150 ease-in-out hover:border-primary-600 hover:bg-neutral-500 hover:bg-opacity-10 hover:text-skin-accent text-center"
+          href="/posts/project-daily-log"
+        >
+          <span class="underline underline-offset-4">Daily Log</span>
+          <br />
+          <span
+            class="text-center text-sm text-skin-base no-underline opacity-90"
+          >
+            Proyek menulis setiap hari, tentang apapun
+          </span>
+        </LinkButton>
+      </p>
+      <p class="pb-1">
+        <LinkButton
+          className="cyberButton mb-2 block w-full border shadow-md border-skin-accent px-6 py-3 text-xs font-medium uppercase leading-none text-skin-base transition duration-150 ease-in-out hover:border-primary-600 hover:bg-neutral-500 hover:bg-opacity-10 hover:text-skin-accent text-center"
+          href="https://h2h-game.netlify.app/"
+        >
+          <span class="underline underline-offset-4">H2H</span>
+          <br />
+          <span
+            class="text-center text-sm text-skin-base no-underline opacity-90"
+          >
+            Game Sosial berbasis Website. Tahun 2020
+          </span>
+        </LinkButton>
+      </p>
+      <p class="pb-1">
+        <LinkButton
+          className="cyberButton mb-2 block w-full border shadow-md border-skin-accent px-6 py-3 text-xs font-medium uppercase leading-none text-skin-base transition duration-150 ease-in-out hover:border-primary-600 hover:bg-neutral-500 hover:bg-opacity-10 hover:text-skin-accent text-center"
+          href="https://instagram.com/affanabito/"
+        >
+          <span class="underline underline-offset-4">Instagram</span>
+          <br />
+          <span
+            class="text-center text-sm text-skin-base no-underline opacity-90"
+          >
+            Akun IG affan
+          </span>
+        </LinkButton>
+      </p>
 
-<p class="pb-1">
-  <LinkButton
-  className="cyberButton mb-2 block w-full border shadow-md border-skin-accent px-6 py-3 text-xs font-medium uppercase leading-none text-skin-base transition duration-150 ease-in-out hover:border-primary-600 hover:bg-neutral-500 hover:bg-opacity-10 hover:text-skin-accent text-center"
-  href="https://github.com/satnaing/astro-paper#readme"
-  >
-  <span class="underline underline-offset-4">Astro Paper</span> 
-  <br/>
-  <span class="text-sm text-center opacity-90 text-skin-base no-underline">test</span>
-</LinkButton>
-</p>
+      <!-- Intro -->
+      <br />
+      <h2>info_</h2>
+      <p>
+        Web ini adalah tempat aku ngepost semua <span
+          class="underline underline-offset-4"
+          >tulisan, karya, dan proyekku</span
+        > selama ini. Web ini juga jadi <span
+          class="underline underline-offset-4">portofolio pribadi</span
+        >, dan <span class="underline underline-offset-4"
+          >tempat dokumentasi</span
+        > dari perjalananku. Informasi lengkapnya bisa dilihat di halaman
+        <LinkButton
+          className="text-skin-accent underline underline-offset-4 decoration-dashed"
+          href="/about"
+        >
+          About.
+        </LinkButton>
+      </p>
 
+      <!-- CTA -->
+      <p>
+        <br />
+        Semua Project & Post terbaruku bisa <span
+          class="underline underline-offset-4">cek di bawah</span
+        >,
+        <br />
+        Untuk lihat semua post-ku, ada di halaman
+        <LinkButton
+          className="text-skin-accent underline underline-offset-4 decoration-dashed"
+          href="/posts"
+        >
+          Post.
+        </LinkButton>
+        <br />
+        Untuk semua proyek, bisa cek di tag
+        <LinkButton
+          className="text-skin-accent underline underline-offset-4 decoration-dashed"
+          href="/tags/project"
+        >
+          Project.
+        </LinkButton>
+      </p>
+      <br />
 
-<p>
-  <br />
-  Template Blog: 
-  <LinkButton
-  className="hover:text-skin-accent underline underline-offset-4 decoration-dashed"
-  href="https://github.com/satnaing/astro-paper#readme"
-  >
-  Astro Paper.
-</LinkButton>
-</p>
-<br />
-{
-  // only display if at least one social link is enabled
-  socialCount > 0 && (
-  <div class="social-wrapper">
-    <div class="social-links">Social Links:</div>
-    <Socials />
-  </div>
-  )
-}
-</section>
+      {
+        // only display if at least one social link is enabled
+        socialCount > 0 && (
+          <div class="social-wrapper">
+            <div class="social-links">Link Media Sosial:</div>
+            <Socials />
+          </div>
+        )
+      }
 
-<Hr />
+      <br />
+    </section>
 
-{
-  featuredPosts.length > 0 && (
-  <>
-  <section id="featured">
-    <h2>Featured Posts</h2>
-    <ul>
-      {featuredPosts.map(({ data }) => (
-      <Card
-      href={`/posts/${slugify(data)}`}
-      frontmatter={data}
-      secHeading={false}
-      />
-      ))}
-    </ul>
-    
-    <div class="all-posts-btn-wrapper">
-      <LinkButton href="/posts">
-        All Posts
-        <svg xmlns="http://www.w3.org/2000/svg"
-        ><path
-        d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z"
-        ></path>
-      </svg>
-    </LinkButton>
-  </div>
-</section>
-</>
-)
-}
+    <Hr />
 
-<!-- <section id="recent-posts">
-  <h2>Recent Posts</h2>
-  <ul>
     {
-      sortedPosts.map(
-      ({ data }, index) =>
-      index < 4 && (
-      <Card
-      href={`/posts/${slugify(data)}`}
-      frontmatter={data}
-      secHeading={false}
-      />
-      )
+      featuredPosts.length > 0 && (
+        <>
+          <section id="featured">
+            <h2>project_</h2>
+            <ul>
+              {featuredPosts.map(({ data }) => (
+                <Card
+                  href={`/posts/${slugify(data)}`}
+                  frontmatter={data}
+                  secHeading={false}
+                />
+              ))}
+            </ul>
+          </section>
+        </>
       )
     }
-  </ul>
-  <div class="all-posts-btn-wrapper">
-    <LinkButton href="/posts">
-      All Posts
-      <svg xmlns="http://www.w3.org/2000/svg"
-      ><path
-      d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z"
-      ></path>
-    </svg>
-  </LinkButton>
-</div>
-</section> -->
-</main>
+    <Hr />
+    <section id="recent-posts">
+      <h2>post-terbaru_</h2>
+      <ul>
+        {
+          sortedPosts.map(
+            ({ data }, index) =>
+              index < 4 && (
+                <Card
+                  href={`/posts/${slugify(data)}`}
+                  frontmatter={data}
+                  secHeading={false}
+                />
+              )
+          )
+        }
+      </ul>
+      <div class="all-posts-btn-wrapper">
+        <LinkButton href="/posts">
+          All Posts
+          <svg xmlns="http://www.w3.org/2000/svg"
+            ><path
+              d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z"
+            ></path>
+          </svg>
+        </LinkButton>
+      </div>
+    </section>
+  </main>
 
-<Footer />
+  <Footer />
 </Layout>
 
 <style>
@@ -181,7 +220,10 @@ const socialCount = SOCIALS.filter(social => social.active).length;
     @apply pt-8 pb-1;
   }
   #hero h1 {
-    @apply inline-block text-3xl sm:text-5xl font-bold;
+    @apply inline-block text-3xl font-bold sm:text-5xl;
+  }
+  #hero h2 {
+    @apply inline-block text-3xl font-medium;
   }
   #hero .rss-link {
     @apply mb-2;
@@ -193,7 +235,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
     @apply my-2;
   }
   #hero .controller {
-    @apply -mt-5 mb-8
+    @apply -mt-5 mb-8;
   }
   .social-wrapper {
     @apply mt-4 flex flex-col sm:flex-row sm:items-center;
@@ -201,12 +243,16 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   .social-links {
     @apply mr-2 mb-1 whitespace-nowrap sm:mb-0;
   }
-  :root,
-  html[data-theme="dark"] .cyberButton{
+  html[data-theme="dark"] .cyberButton {
     @apply shadow-yellow-900;
   }
-  
-  
+  html[data-theme="dark"] .cyberButton.cyberGradient {
+    @apply bg-gradient-to-r from-fuchsia-700 to-yellow-500 shadow-fuchsia-800;
+  }
+  html[data-theme="light"] .cyberButton.cyberGradient {
+    @apply bg-gradient-to-r from-cyan-200 shadow-sky-300;
+  }
+
   /* ===== Featured & Recent Posts Sections ===== */
   #featured,
   #recent-posts {
