@@ -13,22 +13,22 @@ ogImage: ""
 description: A developer notes about updating this website.
 ---
 
-## Perubahan UI
+## UI changes
 
-Aku mau website ini jadi website yang aku suka ketika aku lihat, bisa aku banggakan, dan orang lain juga nyaman lihatnya. Karena rencananya website ini pingin aku develop terus sampai nanti jadi wujud terbaiknya, jadi aku harus suka dan antusias setiap kali lihat & mau post di sini.
+I want this website to be a website that I like when I look at it, that I can be proud of, and that other people are also comfortable looking at. Because I plan to continue developing this website until it becomes its best form, so I have to like and be enthusiastic every time I look at it & want to post here.
 
-Jadi perubahan terbesar sekarang adalah di penampilan.
+So the biggest change now is in the appearance.
 
-Selain itu, di tampilan home, aku buat formatnya kayak tampilan linktree. Karena website ini aku taruh di bio instagram, dan tampilan linktree yang paling familiar sama orang-orang.
+In addition, in the home view, I made the format look like a linktree view. Because I put this website in my instagram bio, and the linktree view is the most familiar to people.
 
-Tema tampilannya aku bikin dengan style Cyberpunk. Pada intinya cuma ganti font. Aku pakai font 'Rajdhani', yang bisa diakses di google font. Banyak yang aku ulik, mulai dari ukuran font, tebelnya, jarak antar huruf, sama jarak antar baris. Aku harus bikin itu jadi enak dibaca, karena font itu kalau langsung dipakai tanpa diatur dulu, jadi nggak enak dibacanya.
+I made the theme with Cyberpunk style. Basically, I just changed the font. I used the 'Rajdhani' font, which can be accessed on google fonts. I did a lot of reviewing, starting from the font size, thickness, spacing between letters, and spacing between lines. I had to make it pleasant to read, because if the font is used directly without adjusting it first, it becomes unpleasant to read.
 
-## Perubahan Lain
+## Other Changes
 
-Website ini pada intinya cuma 2 _collection_, ada post, dan ada tag.<br/>
-Awalnya mau aku bikin ada _collection_ project, tapi ternyata kemampuanku belum sampai untuk itu. Jadi semua project aku taruh di Tag.
+This website is basically just 2 collections with posts, and tags.
+Initially I wanted to make another collection called 'projects', but it turned out that my skills were not up to it. So I put all my projects in Tags.
 
-Selain itu, aku mau bikin blog ini jadi 2 bahasa. I put the English one in a different repository on github. Why English?
+In addition, I want to make this blog bilingual. I put the English one in a different repository on github. Why English?
 
 1. I want to practice writing, speaking, listening to English.
 2. I want my content to be accessible & enjoyed by people all over the world.
