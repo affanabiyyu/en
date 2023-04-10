@@ -7,7 +7,7 @@ featured: true
 draft: false
 tags:
   - project
-  - log
+  - project-daily-log
 ogImage: ""
 description: Proyek menulis setiap hari, tentang apapun.
 ---
@@ -50,4 +50,4 @@ Karena katanya butuh 66 hari untuk suatu aktivitas menjadi kebiasaan.
 
 ## Logs
 
-Semua post Daily-Log bisa dilihat di [kategori Log](/tags/log) di website ini.
+Semua post Daily-Log bisa dilihat di [kategori project-daily-log](/tags/project-daily-log) di website ini.

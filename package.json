@@ -1,5 +1,5 @@
 {
-  "name": "abito-astro-2",
+  "name": "abito-astro-2-en",
   "version": "2.2.0",
   "scripts": {
     "dev": "astro check --watch & astro dev",
