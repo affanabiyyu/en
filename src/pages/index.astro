@@ -46,19 +46,19 @@ const socialCount = SOCIALS.filter(social => social.active).length;
             className="hover:text-skin-base text-skin-accent text-sm underline underline-offset-4 decoration-dashed"
             href="/"
           >
-            (go to english blog)
+            (go to indonesian blog)
           </LinkButton> | <LinkButton
             className="hover:text-skin-base text-skin-accent text-sm underline underline-offset-4 decoration-dashed"
             href="#"
           >
-            <span id="theme-btn2">(ganti tema)</span>
+            <span id="theme-btn2">(change theme)</span>
           </LinkButton>
         </p>
       </div>
 
       <!-- Links -->
       <p class="text-md uppercase underline underline-offset-4 opacity-90">
-        Link Pilihan
+        Featured Links
       </p>
       <p class="pb-1">
         <LinkButton
@@ -70,7 +70,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
           <span
             class="text-center text-sm text-skin-base no-underline opacity-90"
           >
-            Proyek menulis setiap hari, tentang apapun
+            A daily writing project, about anything
           </span>
         </LinkButton>
       </p>
@@ -79,43 +79,43 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       <br />
       <h2>info_</h2>
       <p>
-        Web ini adalah tempat aku ngepost semua <span
+        This website is where I post all my <span
           class="underline underline-offset-4"
-          >tulisan, karya, dan proyekku</span
-        > selama ini. Web ini juga jadi <span
-          class="underline underline-offset-4">portofolio pribadi</span
-        >, dan <span class="underline underline-offset-4"
-          >tempat dokumentasi</span
-        > dari perjalananku. Informasi lengkapnya bisa dilihat di halaman
+          >writings, works, and projects</span
+        > along the way. It's also a <span class="underline underline-offset-4"
+          >personal portfolio</span
+        >, and a place to <span class="underline underline-offset-4"
+          >document</span
+        > my journey. You can find more information on the
         <LinkButton
           className="text-skin-accent underline underline-offset-4 decoration-dashed"
           href="/en/about"
         >
-          About.
+          About page.
         </LinkButton>
       </p>
 
       <!-- CTA -->
       <p>
         <br />
-        Semua Project & Post terbaruku bisa <span
-          class="underline underline-offset-4">cek di bawah</span
+        All my latest Projects & Posts <span
+          class="underline underline-offset-4">can be checked below.</span
         >,
         <br />
-        Untuk lihat semua post-ku, ada di halaman
+        To see all my posts, you can find them on the Navbar or the
         <LinkButton
           className="text-skin-accent underline underline-offset-4 decoration-dashed"
           href="/en/posts"
         >
-          Post.
+          Posts page.
         </LinkButton>
         <br />
-        Untuk semua proyek, bisa cek di tag
+        For all of my projects, you can check the
         <LinkButton
           className="text-skin-accent underline underline-offset-4 decoration-dashed"
           href="/en/tags/project"
         >
-          Project.
+          Project tag.
         </LinkButton>
       </p>
       <br />
@@ -124,7 +124,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
         // only display if at least one social link is enabled
         socialCount > 0 && (
           <div class="social-wrapper">
-            <div class="social-links">Link Media Sosial:</div>
+            <div class="social-links">Social Media Links:</div>
             <Socials />
           </div>
         )
@@ -155,7 +155,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
     }
     <Hr />
     <section id="recent-posts">
-      <h2>post-terbaru_</h2>
+      <h2>newest-posts_</h2>
       <ul>
         {
           sortedPosts.map(

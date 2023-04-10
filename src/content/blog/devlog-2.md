@@ -1,8 +1,8 @@
 ---
 author: Affan Abiyyu
 pubDatetime: 2023-04-10T08:56:00Z
-title: Rombak Website - v2.0
-postSlug: rombak-webiste-v2
+title: Big Update, Website v2.0
+postSlug: devlog-2
 featured: false
 draft: false
 tags:
@@ -10,7 +10,7 @@ tags:
   - dev-log
   - log
 ogImage: ""
-description: Catatan developer tentang rombak website
+description: A developer notes about updating this website.
 ---
 
 ## Perubahan UI
@@ -28,39 +28,39 @@ Tema tampilannya aku bikin dengan style Cyberpunk. Pada intinya cuma ganti font.
 Website ini pada intinya cuma 2 _collection_, ada post, dan ada tag.<br/>
 Awalnya mau aku bikin ada _collection_ project, tapi ternyata kemampuanku belum sampai untuk itu. Jadi semua project aku taruh di Tag.
 
-Selain itu, aku mau bikin blog ini jadi 2 bahasa. Aku taruh yang bahasa inggris di repository berbeda di github. Kenapa bahasa inggris?
+Selain itu, aku mau bikin blog ini jadi 2 bahasa. I put the English one in a different repository on github. Why English?
 
-1. Aku mau latihan nulis, ngomong, mendengar bahasa inggris.
-2. Aku mau kontenku bisa diakses & dinikmati semua orang di seluruh dunia.
+1. I want to practice writing, speaking, listening to English.
+2. I want my content to be accessible & enjoyed by people all over the world.
 
-Panjang ini ceritanya, dan akan aku bahas di post berikutnya.
+This is a long story, and I will discuss it in the next post.
 
-Pada intinya perubahan sekarang adalah perubahan-perubahan kecil, yang setidaknya masih bisa aku lakukan, tapi dampaknya agak signifikan. Seadanya, tapi tetep improve signifikan.
+In essence, the changes now are small changes, which at least I can still do, but the impact is rather significant. Modest, but still a significant improvement.
 
-## Curhat Waktu Proses
+## Confide in the Process
 
-Aku ngerasa ada bedanya ketika nggarap website ini, sama nggarap cerita komik. Aktivitas otaknya berbeda.
+I feel there is a difference between working on this website and working on comic stories. The brain activity is different.
 
-Waktu aku nggarap website, aku bisa langsung garap lumayan cepet dan jarang buntu. Hampir mencapai otomasi. Sedangkan waktu nulis cerita komik (Brandal) aku sering buntu dan harus berusaha lebih kreatif. Awalnya aku kira ini perbedaan dari bidang kreatif dan bidang yang lebih teknis. Tapi aku punya pemikiran lain.
+When I work on a website, I can immediately work quite quickly and rarely get stuck. It almost reached automation. Meanwhile, when writing comic stories (Brandal) I often get stuck and have to try to be more creative. At first I thought this was the difference between the creative field and the more technical field. But I had other thoughts.
 
-Waktu aku cerita ini ke kakak, katanya bukan kayak gitu. Ngoding bukan cuma skill logis, dan nulis bukan cuma skill kreatif. Jadi gini.
+When I told my brother about this, he said it's not like that. Coding is not just a logical skill, and writing is not just a creative skill. So here it is.
 
-Untuk mencapai tingkat di mana ketika nggarap kita merasakan sebuah _otomasi_, seseorang harus sudah punya skill di sana. Jadi waktu nggarap, dia nggak sambil belajar. Ibaratnya semua skill fundamental sudah ia kuasai.
+To reach a level where we feel a sense of automation when we're working on something, someone must already have a skill there. So when he's working, he's not just learning, it's like he's already mastered all the fundamental skills.
 
-Jadi ketika nggarap dan nemu masalah, dengan cepat seseorang bisa nemu solusi. Karena ia sudah menyelesaikan masalah-masalah lain yang satu tingkat dibawahnya. Jadi untuk menyelesaikan masalah, dia sudah punya bekal. Sudah ada fondasi dan pengalaman. Baru di saat itu orang itu bisa mencapai tingkat _otomasi_.
+So when working and encountering a problem, someone can quickly find a solution. Because he has already solved other problems that are one level below. So to solve the problem, he already has provisions. There is already a foundation and experience. Only then can that person reach the level of automation.
 
-Ketika aku ngoding, aku ngerasa jarang buntu karena aku sudah pernah ngelakuin ini sebelumnya. Aku sudah pernah garap website. Nah, bisa jadi kalau aku buntu ngoding, itu karena aku belum punya fondasi di sana. Dan aku sadar ternyata ada juga _fenomena buntu_ yang aku alami saat ngoding. Contohnya, ketika mau ngulik Astro & Tailwind, aku cuma pakai solusi-solusi cepet yang pokoknya hasilnya bagus. Hasilnya, websitenya jadi tapi seadanya, dan kodinganku nggak rapi.
+When I code, I rarely feel stuck because I've done this before. I've done websites before. Now, it could be that if I get stuck coding, it's because I don't have a foundation there yet. And I realized that there was also a dead-end phenomenon that I experienced when coding. For example, when I wanted to explore Astro & Tailwind, I only used quick solutions that had good results. As a result, the website was finished, but it was rough, and my coding was sloppy.
 
-Aku belum punya ilmu fondasi di Astro, Tailwind, dan Ngoding Rapi.
+I didn't have the foundation knowledge in Astro, Tailwind, and Neat Coding.
 
-Sama juga kayak waktu nulis Brandal, aku pertamakali nulis format komik. Jadi aku nggarap sekaligus belajar fondasi.
+It was also the same when I wrote Brandal, my first time writing in comic format. So I worked on it while learning the foundations.
 
-Nah itu yang bikin waktu nggarap kita ngerasa sering buntu: sebenernya kita nggarap sekaligus belajar.
+That's what makes us feel stuck at times: we're actually working and learning at the same time.
 
-Menurutku sekarang, optimalnya adalah kita harus belajar fondasi dulu, baru nggarap. Karena dengan begitu, waktu kita nggarap kita bisa mencapai banyak target. Otomatis. Dan lebih produktif.
+I think now, the optimum is that we should learn the foundation first, then work on it. Because that way, when we work, we can achieve many targets. Automatically. And more productive.
 
-Ketika kita belajar juga gitu, kita bisa bereksperimen banyak hal, tanpa perlu digupuhi sama ekspektasi bahwa "ini harus ada hasilnya".
+When we learn too, we can experiment a lot of things, without the expectation that "this has to have results".
 
-Itu yang aku pelajari kemarin.
+That's what I learned yesterday.
 
-Oke sekian semoga bermanfaat :D
+Okay that's all, hopefully it's useful :D

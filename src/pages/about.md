@@ -4,108 +4,91 @@ title: "About"
 navigation: "about"
 ---
 
-## Website Ini
+## This website
 
-Perjalanan, dan tujuan.<br />
-Proses, dan hasil.<br />
-Dokumentasi, dan karya.
+Journey, and destination.<br />
+Process, and results.<br />
+Documentations, and works.
 
-Fakta.
-Pendapat.<br />
-Perasaan.
-Pemikiran.<br />
-Kurasi.
-Rangkuman.<br />
-Artikel.
-Esai.<br />
-Portfolio.
-Sistem.
+Facts. Opinions.<br />
+Feelings. Thoughts.<br />
+Curation. Summary.<br />
+Article. Essay.<br />
+Portfolio. System.
 
-Tulisan, gambar, video, <br />
-suara, aplikasi interaktif.<br />
-Apapun itu.
+Text, images, video,<br />
+sound, interactive applications.<br />
+Whatever it is.
 
-Akan aku post di sini.
+I'll post it here.
 
-Di semua bidang yang aku suka, tentang<br />
-hidup,
-psikologi,
-filsafat,
-pemrograman,
-webiste,
-puisi,
-kepenulisan,
-menggambar,
-journaling,
-AI,
-bahkan game kayak yu-gi-oh,
-atau mobile legends,
-atau apapun nanti yang aku dalami.
+In all the subject areas I like, about<br />
+life, psychology, philosophy, programming, websites, poetry, writing, drawing, journaling, AI, even games like yu-gi-oh, or mobile legends, or whatever else I'm into.
 
-Semuanya aku taruh di sini.<br />
-Semua yang aku hasilkan, dan berikan untuk orang, bakal kutaruh di sini.
+I put everything here.<br />
+Everything that I make, and give to people, I'll put it here.
 
-Tidak ada batasan,<br />
-bentuk, maupun bidang.<br />
-Itu yang aku suka dari website.
+There's no limit,<br />
+form, nor subject.<br />
+That's what I like about websites.
 
-Platform yang menerima semua jenis media,<br />
-semua jenis bidang,<br />
-semuanya. Aku tak terbatas.
+A platform that accepts all kinds of media,<br />
+all kinds of subjects,<br />
+everything. I'm infinite.
 
-Dan semua prosesku, perjalananku,<br />
-hasilku, karyaku,
+And all my process, my journey,<br />
+my results, my work,
 
-bisa dilihat di sini.
+can be seen here.
 
-Semoga bermanfaat.
+I hope it's useful.
 
-## Siapa Aku
+## Who I am
 
-Aku juga tidak tahu betul, siapa aku.
+I don't really know who I am either.
 
-Sejauh ini aku belum bisa mengkotakkan diriku di sebuah label yang jelas. Terlalu banyak bidang yang menarik perhatianku. Mungkin ada yang menganggap aku 'anak IT' karena kuliah IT, ada yang menganggap 'anak komik' karena pernah nulis komik,
+So far I haven't been able to box myself into a clear label. There are too many fields that interest me. Some might consider me an 'IT guy' because I studied IT, some might consider me a 'comic guy' because I've written comics,
 
-Tapi jauh di dalam itu semua, aku nggak tahu sebutan apa yang paling pas buat aku.<br />
-Semuanya aku dalami setengah-setengah. Bukan karena nggak suka, tapi karena aku suka semuanya.
+But deep down, I don't know what to call myself.<br />
+I'm halfway into everything. Not because I don't like it, but because I like everything.
 
-Bahkan masih banyak lagi minatku yang orang belum tahu. <br />
-Dan mungkin, lebih banyak lagi minat yang aku belum tahu (?)
+There are even more of my interests that people don't know about.<br />
+And probably, even more interests that I don't know about (?)
 
-Juga banyak ide-ide ... banyak pemikiran maupun proyek yang sangat ... "nggak biasa".<br />
-Beberapa belum bisa ku-artikulasikan,<br />
-Beberapa menurutku terlalu aneh untuk diskusikan.<br />
-Beberapa aku rasa itu nggak ada gunanya,<br />
-Dan lainnya, mungkin bisa mengubah dunia. Tapi aku takut bilangnya.<br />
-Siapa yang tahu (?)
+I also have a lot of ideas... a lot of thoughts and projects that are very... "unusual".<br />
+Some I can't articulate yet,<br />
+some I think are too weird to discuss.<br />
+Some I don't think are worthwhile,<br />
+And others, maybe they could change the world. But I'm afraid to bring them up.<br />
+Who knows (?)
 
-Aku nggak tahu diriku sendiri.<br />
-Kadang ini terasa menakutkan,<br />
-Tapi kadang
+I don't know myself.<br />
+Sometimes it feels scary,<br />
+but sometimes
 
-juga terasa membebaskan.
+it feels liberating.
 
-Ketidaktahuan yang mengundang rasa penasaran,<br />
-mengajak seseorang untuk bermain,<br />
-mencoba,<br />
-berusaha,
+The unknown invites wonder,<br />
+invites one to play,<br />
+experiment,<br />
+strive,
 
-dalam petualangan,<br />
-menemukan sebuah "harta karun"<br />
-yang tidak ada yang tahu apa isinya.
+on an adventure,<br />
+to find a "treasure"<br />
+that no one knows what it contains.
 
-Karena belum ada yang pernah mendapatkannya.
+Because no one has ever gotten it.
 
-Karena "harta karun" itu cuma untukku,<br />
-pertanyaan bahwa seperti apa potensi terbesarku?<br />
-Apa bentuknya? Jenisnya? Bidangnya?<br />
+Because that "treasure" is just for me,<br />
+the question that asks, what is my greatest potential?<br />
+What does it look like? What kind? What field?
 
-Dan "harta karun" yang lain juga menunggumu,<br />
-yang hanya milikmu,<br />
-yang mengundangmu ke petualanganmu.
+And there are other "treasures" are also waiting for you,<br />
+that belongs only to you,<br />
+that invites you to your adventure.
 
-Siapa aku? <br/>
-Aku tak terbatas, dan aku berpetualang.
+Who am I?<br />
+I am infinite, and I am adventurous.
 
-_Asek_<br/>
+Let's Go.<br />
 😎

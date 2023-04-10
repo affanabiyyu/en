@@ -9,45 +9,44 @@ tags:
   - project
   - project-daily-log
 ogImage: ""
-description: Proyek menulis setiap hari, tentang apapun.
+description: A daily writing project, about anything.
 ---
 
 ## Why
 
-Aku sudah capek untuk cari jalan cepat dalam dapetin sesuatu. <br/>
-Dari dulu cuma itu yang aku lakukan, dan jadinya selalu buntu di tengah jalan.<br/>
-Aku terus-terusan pindah dari satu jalan ke jalan lainnya,<br/>
-Dan akhirnya berhenti, karena nggak bisa melihat potensi terbesarku muncul di sana.
+I'm tired of looking for a quick way to get something.
+That's all I've ever done, and I always end up stuck in the middle of the road.
+I kept moving from one path to another,
+and finally stopped, because I couldn't see my greatest potential emerging there.
 
-Aku mau ke jalan yang terjauh, meskipun nggak cepat.
+I want to go the furthest, even if it's not fast.
 
-Ini bukan berarti aku cuma **mengejar satu bidang,** malah kebalikannya.<br/>
-Saat ini aku yakin potensi terbesarku nggak cuma di satu bidang. Justru di banyak bidang. Karena aku nggak bisa dikotakkan ke satu bidang aja, setidaknya itu yang aku yakini sekarang, melihat apa yang terjadi sebelumnya. Teori itu yang aku uji sekarang.
+It's not that I'm only pursuing one field, it's the opposite.
+I now believe that my greatest potential is not just in one field. Instead, it's in many fields. Because I can't be boxed into just one field, at least that's what I believe now, looking at what happened before. That theory is what I'm testing now.
 
-Banyak hal yang ingin aku coba, dan ingin aku capai.<br />
-Dan itu harus dimulai dari yang paling dasar,<br />
-Fondasi, langkah pertama dari perjalanan jauh.<br />
+There are many things that I want to try, and I want to achieve.
+And it has to start from the basics,
+The foundation, the first step of a long journey.
 
-Simpel, paling aku kuasai, mendasar, fondasi dari semua yang mau aku coba: yaitu menulis.<br/>
+It's simple, it's what I'm good at, it's basic, it's the foundation of everything I want to try: writing.
 
-Sudah lama aku nulis di buku jurnal pribadiku, untukku sendiri. Kali ini aku nulis untuk dibaca orang. Jadi harus kupastikan enak dibaca, dan ada manfaatnya. Itu yang mau aku latih.
+I've been writing in my personal journal, for myself. This time I'm writing for people to read. So I have to make sure that it's good to read, and that there are benefits. That's what I want to practice.
 
-Kenapa menulis itu fondasi?
+Why is writing the foundation?
 
-- aku mau jadi artikulatif dalam menyampaikan perasaan & pemikiranku
-- aku mau mendokumentasikan perjalananku, dan paling baik saat ini adalah dalam bentuk teks, karena ini yang paling aku kuasai (dibandingkan berbicara langsung)
-- aku pingin ahli di bidang ini, pingin bisa nulis esai / buku yang proper
+I want to be articulate in conveying my feelings & thoughts.
+I want to document my journey, and the best way to do that right now is in the form of text, because it's what I'm best at (compared to speaking directly)
+I want to be an expert in this field, I want to be able to write proper essays / books
 
 ## Goal
 
-Goalnya saat ini adalah nulis 66 tulisan, tentang apapun itu, di blog ini. Panjang, pendek, nggak masalah.
-Karena katanya butuh 66 hari untuk suatu aktivitas menjadi kebiasaan.
+The current goal is to write 66 posts, about anything, on this blog. Long, short, it doesn't matter. Because they say it takes 66 days for an activity to become a habit.
 
 ## Strategi
 
-- menyempatkan nulis setiap hari, meskipun sebentar
-- catat apa saja yang ingin ditulis, supaya nggak perlu mikir keras nulis apa
+- make time to write every day, even if it's for a while
+- write down what you want to write about, so you don't have to think hard about what to write about
 
 ## Logs
 
-Semua post Daily-Log bisa dilihat di [kategori project-daily-log](/tags/project-daily-log) di website ini.
+All Daily-Log posts can be found in the [project-daily-log category](/en/tags/project-daily-log) on this website.

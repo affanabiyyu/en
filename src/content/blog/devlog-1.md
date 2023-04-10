@@ -1,70 +1,70 @@
 ---
 author: Affan Abiyyu
 pubDatetime: 2023-03-27T05:59:00Z
-title: Nyoba Bikin Web pakai Astro JS V2
-postSlug: nyoba-bikin-web-pakai-astro-js-v2
+title: Trying to make a simple website using AstroJS V2
+postSlug: devlog-1
 featured: false
 draft: false
 tags:
   - dev-log
   - log
 ogImage: ""
-description: Catatan developer pertama tentang bikin web ini
+description: My first web developer notes on making this website.
 ---
 
-## Kenapa Bikin Website
+## Why make a website
 
-Dari dulu (saat kuliah, SMA, bahkan SD) ada ketertarikan buat bikin website. Dulu jaman SD bikin website pakai platform namanya xtgem, website hp gitu kayak waptrick, diisi gambar-gambar / java game bareng temenku. Dan kuliah juga belajar bikin web. Akhirnya tertarik sama Front-End. Sekarang udah nggak kuliah, dan bingung mau bikin apa, mungkin lebih baik bikin web pribadi. Entah apa nanti hasilnya (?) Diisi sambil belajar.
+From a long time ago (during college, high school, even elementary school) there was an interest in making a website. When I was in elementary school, I made a website using a platform called xtgem, a cellphone website like waptrick, filled with pictures / java games with my friends. And in college I also learned how to make a web. Finally interested in Front-End. Now that I'm not in college, and confused about what to make, maybe it's better to make a personal web. I don't know what the result will be (?) Filled in while learning.
 
-Rencana-nya untuk sekarang, tujuan website ini:
+The plan for now, the purpose of this website:
 
-- belajar front-end dasar lagi (html, css, js, typescript)
-- belajar astro js, framework untuk website ini
-- belajar svelte, karena di astro bisa pakai svelte
-- bakal diisi tulisan / karyaku, yang nggak tahu ada yang baca apa nggak
-- latihan nulis artikel (?) supaya aku bisa artikulatif untuk kasih tahu maksudku, dan bisa berguna buat orang
-- dokumentasiin proses-prosesku
+- learn basic front-end again (html, css, js, typescript)
+- learn astro js, the framework for this website
+- learn svelte, because in astro you can use svelte
+- will be filled with my writing / work, which I don't know if anyone will read or not
+- practice writing articles (?) so that I can be articulate to tell my point, and can be useful for people
+- documentation of my processes
 
-Intinya semua yang tak terucap namun bisa ditulis, mungkin ditulis di sini.
+In essence, everything that is unspoken but can be written, may be written here.
 
-## Kenapa Astro JS
+## Why Astro JS
 
-Pertama kali nyoba Front-End waktu magang kuliah, di Startup Surabaya namanya Aegis. Diajari pakai framework Svelte, dan suka banget karena powerful rasanya.
+The first time I tried Front-End was during my internship, at a Surabaya startup called Aegis. I was taught to use the Svelte framework, and really liked it because it was powerful.
 
-Dulu kekurangan Svelte adalah dia client-rendered, dimana semua elemen website di render di browser client. Ini akibatnya, SEO dari website itu nggak bagus (?) Jadi cuma cocok buat web-app, bukan buat website yang berisi informasi.
+Svelte's shortcoming was that it was client-rendered, where all website elements were rendered in the client's browser. As a result, the SEO of the website is not good (?) So it is only suitable for web-apps, not for websites that contain information.
 
-> Ibaratnya yang tentang SEO tuh, misal ada Blog bahas tentang sesuatu, google bisa nangkep sesuatu yang di bahas itu. Karena google-nya ngerti, jadi website kita kemungkinan bisa muncul di google search. Kalau render website-nya di client, maka nggak bisa kebaca sama google, karena di file html nya belum di render. Di rendernya waktu javascript di jalankan, di broweser. Sedangkan robot nya google nggak ngerender website satu-satu, pakai teknologi lain, kalau gasalah crawling namanya,
+> For example, if there is a blog about something, Google can pick up on that something. Because Google understands, so our website is likely to appear in Google search. If the website is rendered on the client, then it can't be read by Google, because the html file has not been rendered. It is rendered when the javascript is executed, in the browser. Meanwhile, Google's robot doesn't render websites one by one, it uses other technology, if you call it crawling,
 
-Jadi waktu itu cuma bisa html, css, js, dan svelte dikit-dikit.
-Tapi pingin bikin yang bisa kayak buat blog.
-Akhirnya nemu Astro.
+So at that time I could only do html, css, js, and a little svelte.
+But I wanted to make something that could be like a blog.
+Finally found Astro.
 
-Astro JS pada dasarnya adalah Static Site Generator.
-Jadi dia bukan client-rendered, dan juga nggak pakai server (bukan server-rendered).
+Astro JS is basically a Static Site Generator.
+So it's not client-rendered, and it also doesn't use a server (not server-rendered).
 
-Dan itu bagusnya adalah, websitenya bisa di host gratis di github.
+And the good thing is, the website can be hosted for free on github.
 
-Dan juga waktu pertamakali tahu astro dulu masih versi 1, dan sekarang udah versi 2, cepet banget.
-Kayaknya pertumbuhan komunitasnya cepet, dan developernya semangat, jadi aku nyoba mau dalemin framework ini aja.
+And also when I first knew astro, it was still version 1, and now it's version 2, it's really fast.
+I think the growth of the community is fast, and the developers are passionate, so I just tried to explore this framework.
 
-Kelebihan astro lainnya, dia bisa render elemen-elemen dengan bahasa .svelte, bahkan react atau vue. Jadi fleksibel. (_cuma aku belum terlalu paham yang ini, ntar sambil jalan kalau lebih ngerti aku post di sini_)
+Another advantage of astro is that it can render elements with .svelte language, even react or vue. So it's flexible. (_only I don't really understand this one, I'll post it here as I go along if I understand it better_)
 
-Ditambah lagi, di versi 2 Astro, ada namanya **content collections**. Jadi bisa ngisi jenis konten lain selain blog, bisa kayak barang / items, atau galeri mungkin. Ntar aku cari tahu juga wkwk.
+Plus, in version 2 of Astro, there is such a thing as **content collections**. So you can fill in other types of content besides blogs, like items, or maybe galleries. I'll find out about that later.
 
-## Tentang Template
+## About the template
 
-Sebelum ini, aku pakai template yang lain. Tapi RSS & SEO nya belum diatur otomatis (?) yang ini udah. Ntar ku ulik-ulik lagi.
+Before this, I used another template. But the RSS & SEO were not set up automatically (?) this one is. I'll look into it some more.
 
 ## To Do
 
-- [ ] ngepost 3 post baru
-- [ ] ganti font
-- [ ] ngedit home, dikasih navigasi kategori konten
-- [ ] bikin content collection project-projectku
-- [ ] nyoba bikin blog 2 bahasa
-- [ ] ngulik tentang SEO
-- [ ] ngulik tentang analytics
+- [ ] post 3 new posts
+- [ ] change font
+- [ ] edit home, give content category navigation
+- [ ] make a content collection of my projects
+- [ ] trying to make a 2 language blog
+- [ ] learn about SEO
+- [ ] learn about analytics
 
-## Kesimpulan
+## Conclusion
 
-Dari website ini semoga bisa sekali lempar 2-3 burung langsung kena, sekalian belajar front-end, sekalian belajar nulis. Dan kalau dikembangin terus entah nanti jadi apa web ini, kurasa potensi nya besar buat aku.
+From this website, hopefully I can throw 2-3 birds straight into the air, learn front-end at the same time, learn writing at the same time. And if I continue to develop it, I don't know what this website will become, I think it has great potential for me.
