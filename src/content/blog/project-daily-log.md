@@ -42,7 +42,7 @@ I want to be an expert in this field, I want to be able to write proper essays /
 
 The current goal is to write 66 posts, about anything, on this blog. Long, short, it doesn't matter. Because they say it takes 66 days for an activity to become a habit.
 
-## Strategi
+## Strategy
 
 - make time to write every day, even if it's for a while
 - write down what you want to write about, so you don't have to think hard about what to write about
