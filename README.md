@@ -1,12 +1,12 @@
-# halo\_
+# hello\_
 
-Ini adalah website personalku.
-Dibuat dengan Astro JS.
+This is my personal website. Still learning, tho.
+Built with Astro JS.
 Template: [AstroPaper](https://github.com/satnaing/astro-paper) (aku modifikasi) 📄
 
-Selamat berjelajah :D
+Happy exploring :D
 
-(dibawah ini adalah readme.md dari astro paper)
+(below is the readme.md of astro paper)
 
 ---
 
