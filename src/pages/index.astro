@@ -44,7 +44,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
         <p>
           <LinkButton
             className="hover:text-skin-base text-skin-accent text-sm underline underline-offset-4 decoration-dashed"
-            href="https://affanabiyyu.github.io/"
+            href="/"
           >
             (go to indonesian blog)
           </LinkButton> | <LinkButton
@@ -117,7 +117,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
         > dari perjalananku. Informasi lengkapnya bisa dilihat di halaman
         <LinkButton
           className="text-skin-accent underline underline-offset-4 decoration-dashed"
-          href="/about"
+          href="/en/about"
         >
           About.
         </LinkButton>
@@ -133,7 +133,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
         Untuk lihat semua post-ku, ada di halaman
         <LinkButton
           className="text-skin-accent underline underline-offset-4 decoration-dashed"
-          href="/posts"
+          href="/en/posts"
         >
           Post.
         </LinkButton>
@@ -141,7 +141,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
         Untuk semua proyek, bisa cek di tag
         <LinkButton
           className="text-skin-accent underline underline-offset-4 decoration-dashed"
-          href="/tags/project"
+          href="/en/tags/project"
         >
           Project.
         </LinkButton>
@@ -171,7 +171,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
             <ul>
               {featuredPosts.map(({ data }) => (
                 <Card
-                  href={`/posts/${slugify(data)}`}
+                  href={`/en/posts/${slugify(data)}`}
                   frontmatter={data}
                   secHeading={false}
                 />
@@ -190,7 +190,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
             ({ data }, index) =>
               index < 4 && (
                 <Card
-                  href={`/posts/${slugify(data)}`}
+                  href={`/en/posts/${slugify(data)}`}
                   frontmatter={data}
                   secHeading={false}
                 />
